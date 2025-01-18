@@ -1,0 +1,16 @@
+// SUM OF POSITIVE INT.NO.
+ #include<stdio.h>
+void main()
+{
+ int sum=0,n;
+ printf("*PROGRAM TO FIND THE SUM OF POSITIVE INTEGER NOS*\n");
+ printf("NAMEAURAV RAJ CLASS:MCA1A ROLLNO:21\n");
+ printf(" enter a positive integer numbers:");
+ scanf("%d",&n);
+ while(n>0)
+ {
+ sum=sum+n%10;
+ n=n/10;
+ }
+ printf("sum of individual digits of a positive integer is %d",sum);
+}
